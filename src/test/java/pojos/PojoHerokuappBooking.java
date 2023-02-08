@@ -25,7 +25,8 @@ public class PojoHerokuappBooking {
     private String firstname;
     private String lastname;
     private int totalprice;
-    private boolean depositpaid;
+    private boolean depositpaid;// eger Boolean olarak (wrapper) yazsaydık getdepositpaid yaparagetirir
+                                // . boyle iken isdepositpaid olrak getirir
     private String additionalneeds;
 
     private PojoHerokuappBookingDates bookingdates;

@@ -9,11 +9,11 @@ public class JsonPlaceHolderBaseUrl {
     protected RequestSpecification specJsonPlace;
 
     @Before
-    public void setUp(){
+    public void setUp() {
 
         specJsonPlace = new RequestSpecBuilder().
-                            setBaseUri("https://jsonplaceholder.typicode.com").
-                            build();
+                setBaseUri("https://jsonplaceholder.typicode.com").
+                build();
     }
 
 }

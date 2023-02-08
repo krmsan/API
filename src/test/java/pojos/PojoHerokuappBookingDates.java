@@ -5,9 +5,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Data //getter setter ve toStringi hazırlar
+@NoArgsConstructor//parametresiz consructer hazırlar
+@AllArgsConstructor//butun argumanları variable içeren parametreli constructorı hazırlar
+
 public class PojoHerokuappBookingDates {
     /*
     {

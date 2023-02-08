@@ -34,7 +34,7 @@ public class D11 {
                 given().when().get(url);
         response.prettyPrint();
 
-        //========================================================================================//
+        //=======================================then() ile sorgu=================================================//
 
         response.then()
                 .assertThat()
@@ -42,7 +42,7 @@ public class D11 {
                         "title",Matchers.equalTo("dolor sint quo a velit explicabo quia nam"),
                         "body",Matchers.containsString("eos qui et ipsum ipsam suscipit"));
         //========================================================================================//
-        //========================================================================================//
+        //=========================================ASsert ile sorgu===============================================//
 
 
         JsonPath responsejsonpath=response.jsonPath();//burayı tum body içinden istedigimizi alabilmek için yapıyoruz
